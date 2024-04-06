@@ -65,12 +65,24 @@ section {
     object-fit: cover;
 }
 
-.about-image {
-    width: 500px;
-    max-width: 400px;
-    border-radius: 8px;
-    
+.About {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space content and image evenly */
+    align-items: center; /* Align items vertically in the center */
 }
+
+.about-content {
+    flex: 1; /* Allow content to take remaining space */
+    padding-right: 20px; /* Add spacing between content and image */
+}
+
+.about-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
 
 
 footer {
