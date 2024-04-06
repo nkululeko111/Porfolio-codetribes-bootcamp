@@ -66,28 +66,58 @@ section {
 }
 
 .About {
-    display: flex; /* Use flexbox to align items */
-    justify-content: space-between; /* Space content and image evenly */
-    align-items: center; /* Align items vertically in the center */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .about-content {
-    flex: 1; /* Allow content to take remaining space */
-    padding-right: 20px; /* Add spacing between content and image */
+    flex: 1;
+    padding-right: 20px; 
 }
 
 .about-image {
-    width: 100%; /* Make the image responsive */
+    width: 100%; 
     max-width: 400px;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     border-radius: 8px;
 }
 
+.contact {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.contact-content {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.map-container {
+    width: 100%; 
+    max-width: 400px;
+    height: auto; 
+    border-radius: 8px;
+}
+  .fa {
+    padding: 10px;
+    font-size: 40px; 
+    text-align: center;
+    position: center;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+
+.fa:hover {
+    background-color: #cecbc5;
+}
 
 
 footer {
     text-align: center;
     color: #0c0707;
     padding: 1px;
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto; 
 }
